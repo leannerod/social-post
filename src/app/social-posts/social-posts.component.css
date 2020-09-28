@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: auto;
+
+    margin: auto;
+    padding: 10px;
+}
+
+.main-title {
+    color: rgb(3, 169, 244);
+    font-size: 24px;
+    font-family: 'homemade apple', cursive;
+    margin: 0px;
+}
+
+ .thought-btn {
+     width: 100%;
+     margin: 5px;
+     background-color: white;
+     padding: 10px;
+     border-radius: 5px;
+     font-family: 'dosis', sans-serif;
+     border: black 1px solid;
+ }
+
+.thought-container {
+    width: 100%;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,22 @@
+.post-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: #f3f1f7 1px solid;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.thought {
+    margin: 0;
+}
+
+.delete {
+    border: none;
+    background-color: transparent;
+    overflow: hidden;
+}

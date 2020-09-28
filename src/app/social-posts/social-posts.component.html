@@ -1,0 +1,8 @@
+<div class="main">
+    <h1 class="main-title">My Thoughts</h1>
+    <button class="thought-btn">New Thought</button>
+    <div class="thought-container">
+        <app-post *ngFor="let post of posts; index as i;" [post]="posts[i]"></app-post>
+    </div>
+</div>
+<app-post-form></app-post-form>

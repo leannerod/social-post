@@ -1,0 +1,58 @@
+.post-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.form-overlay {
+  width: 100%;
+  height: 200vh;
+  position: absolute;
+  background-color: black;
+  opacity: 0.85;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.post-form {
+  width: 50%;
+  background-color: #b1ddea;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: auto;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+input {
+  font-family: "dosis", sans-serif;
+  border: black 1px solid;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+#thought-input {
+  font-family: "dosis", sans-serif;
+  border: black 1px solid;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: "dosis", sans-serif;
+  border: black 1px solid;
+}
